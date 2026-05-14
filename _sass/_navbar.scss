@@ -60,6 +60,8 @@
   }
 
   .navbar-nav .nav-item .nav-link {
+    text-transform: lowercase;
+    
     color: var(--global-text-color);
 
     &:hover {
