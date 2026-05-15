@@ -16,143 +16,46 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/portfolio/cv/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/portfolio/blog/";
-          },
-        },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2023/videos/";
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/portfolio/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "projects-blight-speed",
+        },{id: "projects-big-houses",
+          title: 'Big Houses',
+          description: "University of Michigan MHacks Hackathon",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/big-houses/";
+            },},{id: "projects-blight-speed",
           title: 'Blight Speed',
           description: "Michigame Jam",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/blight-speed/";
+            },},{id: "projects-clep-finder-portal",
+          title: 'CLEP Finder Portal',
+          description: "JPMorgan Chase Code for Good Hackathon",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/clep-finder-portal/";
+            },},{id: "projects-cor-draconis",
+          title: 'Cor Draconis',
+          description: "WolverineSoft Studio",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/cor-draconis/";
             },},{id: "projects-defenders-of-the-dune",
           title: 'Defenders of the Dune',
           description: "WolverineSoft Studio",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/defenders-of-the-dune/";
+            },},{id: "projects-dream-synthesizer",
+          title: 'Dream Synthesizer',
+          description: "WolverineSoft Studio",
+          section: "Projects",handler: () => {
+              window.location.href = "/portfolio/projects/dream-synthesizer/";
             },},{id: "projects-escape-the-midwest",
           title: 'Escape The Midwest',
-          description: "Michigame Jam",
+          description: "EECS 298 Final Project",
           section: "Projects",handler: () => {
               window.location.href = "/portfolio/projects/escape-the-midwest/";
-            },},{id: "projects-example-project",
-          title: 'example project',
-          description: "",
+            },},{id: "projects-paperzero",
+          title: 'PaperZero',
+          description: "Michigan Data Science Team",
           section: "Projects",handler: () => {
-              window.location.href = "/portfolio/projects/example-project/";
+              window.location.href = "/portfolio/projects/paperzero/";
             },},{
         id: 'social-cv',
         title: 'CV',
@@ -168,11 +71,18 @@ ninja.data = [{
           window.open("mailto:%65%75%67%65%6E%69%61.%68%65%72%6E%61%6E%64%65%7A%30%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.linkedin.com/in/eugehm", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/eugehm", "_blank");
         },
       },{
       id: 'light-theme',
