@@ -31,7 +31,13 @@ cv:
 
     Skills:
       - name: Skill
-        icon: fa-solid fa-hashtag
+        icon: fa-solid fa-code
+        keywords: Keyword 1, Keyword 2, Keyword 3
+      - name: Skill
+        icon: fa-solid fa-laptop
+        keywords: Keyword 1, Keyword 2, Keyword 3
+      - name: Skill
+        icon: fa-solid fa-plus
         keywords: Keyword 1, Keyword 2, Keyword 3
 
     Projects:
@@ -40,7 +46,6 @@ cv:
         highlights:
           - Description 1
           - Description 2
-
 
     Languages:
       - name: English

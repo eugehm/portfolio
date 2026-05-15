@@ -150,20 +150,7 @@ d-article {
 }
 
 d-appendix {
-  border-top-color: var(--global-divider-color) !important;
-  color: var(--global-distill-app-color) !important;
-  h3,
-  li,
-  span {
-    color: var(--global-distill-app-color) !important;
-  }
-  a,
-  a.footnote-backlink {
-    color: var(--global-distill-app-color) !important;
-    &:hover {
-      color: var(--global-hover-color) !important;
-    }
-  }
+  display: none !important;
 }
 
 @media (max-width: 1024px) {

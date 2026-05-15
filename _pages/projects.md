@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: about
 title: Portfolio
 permalink: /
 horizontal: false
+social: true
 ---
 
-Some text here.
+Hi! I'm Eugenia, a Computer Science and Engineering student at the University of Michigan. Here's a collection of projects I've worked on, from game development and 3D art to hackathons and ML research.
 
 ---
 

@@ -4,14 +4,14 @@
 
 title: Eugenia's Portfolio # the website title (if blank, full name will be used instead)
 first_name: Eugenia
-middle_name: 
+middle_name:
 last_name: Hernandez-Martinez
 contact_note: >
 description: >
 footer_text: >
 keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: icon.png
 
 url: https://eugehm.github.io # the base hostname & protocol for your site
 baseurl: /portfolio # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -52,8 +52,8 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
-bib_search: true
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: devblog # blog_name will be displayed in your blog page
-blog_description: some text here
+blog_name: eugenia's devblog # blog_name will be displayed in your blog page
+blog_description: a documentation of my contributions to "defenders of the dune"
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

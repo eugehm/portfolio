@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Escape The Midwest
-description: Michigame Jam
+description: EECS 298 Final Project
 img: assets/img/escape-the midwest.png
-importance: 7
+importance: 2
 category: work
 ---
 
