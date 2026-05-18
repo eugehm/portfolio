@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/portfolio/";
     },
-  },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/portfolio/cv/";
-          },
-        },{id: "projects-big-houses",
+  },{id: "projects-big-houses",
           title: 'Big Houses',
           description: "University of Michigan MHacks Hackathon",
           section: "Projects",handler: () => {
@@ -61,7 +54,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/portfolio/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/portfolio/assets/pdf/resume.pdf", "_blank");
         },
       },{
         id: 'social-email',
