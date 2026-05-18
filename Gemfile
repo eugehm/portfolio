@@ -38,3 +38,11 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
+# for vulnerabilities
+# gem "json", ">= 2.19.2"
+# gem "addressable", ">= 2.9.0"
+# gem "nokogiri", ">= 1.19.3"
+# gem "activesupport", ">= 8.1.2.1"
+# gem "css_parser", ">= 1.22.0"
+# gem "loofah", ">= 2.25.1"
