@@ -2,6 +2,16 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 
+# For vulnerabilities
+group :security do
+    # gem 'json', '>= 2.19.2'
+    gem 'json', '>= 2.18.0'
+    gem 'addressable', '>= 2.9.0'
+    gem 'nokogiri', '>= 1.19.3'
+    gem 'activesupport', '>= 8.1.2.1'
+    gem 'loofah', '>= 2.25.1'
+end
+
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-3rd-party-libraries'
@@ -23,13 +33,12 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-
     gem 'classifier-reborn'  # used for content categorization during the build
 end
 
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
-    gem 'css_parser'
+    gem 'css_parser', '>= 1.22.0'
     gem 'feedjira'
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
@@ -38,11 +47,3 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
-
-# for vulnerabilities
-# gem "json", ">= 2.19.2"
-# gem "addressable", ">= 2.9.0"
-# gem "nokogiri", ">= 1.19.3"
-# gem "activesupport", ">= 8.1.2.1"
-# gem "css_parser", ">= 1.22.0"
-# gem "loofah", ">= 2.25.1"
