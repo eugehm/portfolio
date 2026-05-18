@@ -252,8 +252,10 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  activesupport (>= 8.1.2.1)
+  addressable (>= 2.9.0)
   classifier-reborn
-  css_parser
+  css_parser (>= 1.22.0)
   feedjira
   httparty
   jekyll
@@ -276,6 +278,9 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  json (>= 2.19.2)
+  loofah (>= 2.25.1)
+  nokogiri (>= 1.19.3)
   observer
   ostruct
 
