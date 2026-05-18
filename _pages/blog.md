@@ -3,7 +3,6 @@ layout: default
 permalink: /blog/
 title: Devblog
 nav: false
-# nav_order: 3
 pagination:
   enabled: true
   collection: posts
