@@ -149,7 +149,7 @@ const PROJECTS = [
     stack: ["Unity", "Piskel"],
     desc: `
         2D platformer featuring item crafting and Metroidvania-like progression,
-        created by an R$D team of 6 during <a
+        created by an R&D team of 6 during <a
         href="https://wolverinesoftstudio.notion.site/" target="_blank" rel="noopener"
         >WolverineSoft Studio</a> S24. I designed core UI elements and tilesets and
         programmed the logic for inventory syncing, armor health adjustments, and
