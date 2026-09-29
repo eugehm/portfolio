@@ -167,22 +167,4 @@ const PROJECTS = [
       },
     ],
   },
-  {
-    title: "Blight Speed",
-    tag: "Michigame Jam",
-    image: "assets/img/blight-speed.jpg",
-    stack: ["Blender"],
-    desc: `
-        First-person endless runner created by a team of 5 for the joint Spartasoft-
-        WolverineSoft July 2024 Michigame Jam. I modeled, textured, and animated the
-        3D first-person glove assets and configured the environment's visual layout.
-        `,
-    links: [
-      { label: "Play", href: "https://kilarivi.itch.io/blight-speed" },
-      {
-        label: "GitHub",
-        href: "https://github.com/eugehm/portfolio-files/tree/main/blight-speed",
-      },
-    ],
-  },
 ];
